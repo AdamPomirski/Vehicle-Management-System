@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="DevTools4J">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Library DevTools/DevTools4J.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Library DevTools/DevTools4J.jar!/" />
+    </SOURCES>
+  </library>
+</component>

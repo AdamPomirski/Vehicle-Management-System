@@ -1,0 +1,48 @@
+Mon, March 31, 2025. 15:05:30
+java.lang.NumberFormatException: For input string: "tes"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:588)
+	at java.base/java.lang.Integer.parseInt(Integer.java:685)
+	at com.vehicles.Main.createNewVehicleRecord(Main.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at devtools.ui.Application.runMenu(Application.java:291)
+	at devtools.ui.Application.loadMenu(Application.java:251)
+	at devtools.ui.Application.start(Application.java:185)
+	at devtools.ui.Application.start(Application.java:72)
+	at com.vehicles.Main.main(Main.java:332)
+
+**********************
+
+Mon, March 31, 2025. 15:09:05
+java.lang.NumberFormatException: For input string: "yes"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:588)
+	at java.base/java.lang.Integer.parseInt(Integer.java:685)
+	at com.vehicles.Main.editVehicleDetails(Main.java:168)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at devtools.ui.Application.runMenu(Application.java:291)
+	at devtools.ui.Application.loadMenu(Application.java:251)
+	at devtools.ui.Application.start(Application.java:185)
+	at devtools.ui.Application.start(Application.java:72)
+	at com.vehicles.Main.main(Main.java:332)
+
+**********************
+
+Mon, March 31, 2025. 15:09:37
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:685)
+	at com.vehicles.Main.editVehicleDetails(Main.java:168)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at devtools.ui.Application.runMenu(Application.java:291)
+	at devtools.ui.Application.loadMenu(Application.java:251)
+	at devtools.ui.Application.start(Application.java:185)
+	at devtools.ui.Application.start(Application.java:72)
+	at com.vehicles.Main.main(Main.java:332)
+
+**********************
+
