@@ -13,7 +13,7 @@ public class SUV extends Car {
 
     @Override
     public String toString() {
-        return "Car - SUV - " + super.toString() + ", Has AWD - " + hasAWD;
+        return "Car - SUV - " + super.toString() + "  Has AWD - " + hasAWD;
     }
 }
 

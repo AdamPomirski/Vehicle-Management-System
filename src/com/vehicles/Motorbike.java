@@ -33,7 +33,7 @@ public class Motorbike extends Vehicle {
 
     @Override
     public String toString() {
-        return "Motorbike - " + ", Make - " + makeMotorbike +  super.toString() + ", Has a luggage box - " + hasLuggageBox;
+        return "Motorbike - " + "Make - " + makeMotorbike +  super.toString() + " Has a luggage box - " + hasLuggageBox;
     }
 }
 

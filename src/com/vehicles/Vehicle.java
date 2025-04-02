@@ -56,11 +56,11 @@ public abstract class Vehicle {
     @Override
     public String toString() {
         return
-                ", Model - " + model +
-                ", Year - " + yearOfManufacture +
-                ", Gearbox type - " + gearbox +
-                ", Colour - " + colour +
-                ", Mileage - " + mileage +
-                ", VIN - " + vehicleIdentificationNumber;
+                "  Model - " + model +
+                "  Year - " + yearOfManufacture +
+                "  Gearbox type - " + gearbox +
+                "  Colour - " + colour +
+                "  Mileage - " + mileage +
+                "  VIN - " + vehicleIdentificationNumber;
     }
 }

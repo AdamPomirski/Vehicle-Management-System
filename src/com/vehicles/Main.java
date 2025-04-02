@@ -260,6 +260,46 @@ public class Main {
         return successfulVehicleEditMade;
     }
 
+    public static void switchSearchVehiclesByType(int choice) {
+        switch (choice) {
+            case 1:
+                for (Vehicle motorbike : Vehicles) {
+                    if (motorbike instanceof Motorbike ) {
+                        System.out.println(motorbike);
+                    }
+                }
+                break;
+            case 2:
+                for (Vehicle suv : Vehicles) {
+                    if (suv instanceof SUV ) {
+                        System.out.println(suv);
+                    }
+                }
+                break;
+            case 3:
+                for (Vehicle hatchback : Vehicles) {
+                    if (hatchback instanceof Hatchback ) {
+                        System.out.println(hatchback);
+                    }
+                }
+                break;
+            case 4:
+                for (Vehicle estate : Vehicles) {
+                    if (estate instanceof Estate ) {
+                        System.out.println(estate);
+                    }
+                }
+                break;
+            case 5:
+                for (Vehicle saloon : Vehicles) {
+                    if (saloon instanceof Saloon ) {
+                        System.out.println(saloon);
+                    }
+                }
+                break;
+        }
+    }
+
     @Menu(command = "C", description = "Create a new vehicle record", id = 1)
     public static void createNewVehicleRecord() {
         int numVehicles = Integer.parseInt(Reader.readLine("How many vehicles would you like to add? "));
@@ -436,6 +476,21 @@ public class Main {
         } else {
             System.out.println("No vehicle found with VIN: " + vinToRemove);
         }
+    }
+
+    @Menu(command = "T", description = "Search for vehicles by type", id = 6)
+    public static void sortVehiclesByType() {
+
+        System.out.println("What vehicle type would you like to search for?");
+        System.out.println("1. Motorbike");
+        System.out.println("2. SUV");
+        System.out.println("3. Hatchback");
+        System.out.println("4. Estate)");
+        System.out.println("5. Saloon");
+
+        int choice = Integer.parseInt(Reader.readLine("Please enter the vehicle type you would like to search for: "));
+        switchSearchVehiclesByType(choice);
+
     }
 
     public static void main(String[] args) {

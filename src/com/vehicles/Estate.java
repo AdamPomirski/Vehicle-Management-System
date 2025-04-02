@@ -13,7 +13,7 @@ public class Estate extends Car {
 
     @Override
     public String toString() {
-        return "Car - Estate - " + super.toString() + ", Has a third row seat - " + hasThirdRowSeat;
+        return "Car - Estate - " + super.toString() + "  Has a third row seat - " + hasThirdRowSeat;
     }
 }
 

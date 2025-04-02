@@ -8,8 +8,10 @@ public abstract class Car extends Vehicle {
         CHRYSLER,
         CITROEN,
         CHEVROLET,
+        FIAT,
         FERRARI,
         FORD,
+        HONDA,
         HYUNDAI,
         JEEP,
         KIA,
@@ -59,11 +61,11 @@ public abstract class Car extends Vehicle {
 
     @Override
     public String toString() {
-        return ", Make - " + makeCar +
+        return "Make - " + makeCar +
                 super.toString() +
-                ", Has Sat Nav - " + hasSatNav +
-                ", Has Parking Sensors - " + hasParkingSensors +
-                ", Has Tow Bar - " + hasTowBar +
-                ", Has Roof Rack - " + hasRoofRack;
+                "  Has Sat Nav - " + hasSatNav +
+                "  Has Parking Sensors - " + hasParkingSensors +
+                "  Has Tow Bar - " + hasTowBar +
+                "  Has Roof Rack - " + hasRoofRack;
     }
 }
