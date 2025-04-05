@@ -46,3 +46,65 @@ java.lang.NumberFormatException: For input string: ""
 
 **********************
 
+Sat, April 5, 2025. 15:34:05
+java.lang.NumberFormatException: For input string: "yes"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:588)
+	at java.base/java.lang.Integer.parseInt(Integer.java:685)
+	at com.vehicles.Main.createNewVehicleRecord(Main.java:338)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at devtools.ui.Application.runMenu(Application.java:291)
+	at devtools.ui.Application.loadMenu(Application.java:251)
+	at devtools.ui.Application.start(Application.java:185)
+	at devtools.ui.Application.start(Application.java:72)
+	at com.vehicles.Main.main(Main.java:522)
+
+**********************
+
+Sat, April 5, 2025. 15:34:27
+java.lang.IllegalArgumentException: Invalid integer format!
+	at devtools.util.Reader.readInt(Reader.java:219)
+	at devtools.util.Reader.readInt(Reader.java:177)
+	at com.vehicles.Main.createNewVehicleRecord(Main.java:329)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at devtools.ui.Application.runMenu(Application.java:291)
+	at devtools.ui.Application.loadMenu(Application.java:251)
+	at devtools.ui.Application.start(Application.java:185)
+	at devtools.ui.Application.start(Application.java:72)
+	at com.vehicles.Main.main(Main.java:522)
+
+**********************
+
+Sat, April 5, 2025. 17:24:50
+java.lang.IllegalArgumentException: Invalid integer format!
+	at devtools.util.Reader.readInt(Reader.java:219)
+	at devtools.util.Reader.readInt(Reader.java:177)
+	at com.vehicles.Main.createNewVehicleRecord(Main.java:329)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at devtools.ui.Application.runMenu(Application.java:291)
+	at devtools.ui.Application.loadMenu(Application.java:251)
+	at devtools.ui.Application.start(Application.java:185)
+	at devtools.ui.Application.start(Application.java:72)
+	at com.vehicles.Main.main(Main.java:529)
+
+**********************
+
+Sat, April 5, 2025. 19:17:30
+java.lang.IllegalArgumentException: Invalid integer format!
+	at devtools.util.Reader.readInt(Reader.java:219)
+	at devtools.util.Reader.selectFromList(Reader.java:699)
+	at devtools.util.Reader.readEnum(Reader.java:681)
+	at com.vehicles.Main.createNewVehicleRecord(Main.java:340)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at devtools.ui.Application.runMenu(Application.java:291)
+	at devtools.ui.Application.loadMenu(Application.java:251)
+	at devtools.ui.Application.start(Application.java:185)
+	at devtools.ui.Application.start(Application.java:72)
+	at com.vehicles.Main.main(Main.java:529)
+
+**********************
+
